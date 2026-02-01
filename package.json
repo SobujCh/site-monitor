@@ -1,0 +1,23 @@
+{
+  "name": "iv-monitor-droplet-setup",
+  "version": "1.0.0",
+  "description": "Automated Digital Ocean droplet setup with IPv6, 3proxy, and PM2",
+  "main": "setup-droplets.js",
+  "scripts": {
+    "start": "node setup-droplets.js",
+    "setup": "node setup-droplets.js"
+  },
+  "keywords": [
+    "digitalocean",
+    "droplet",
+    "3proxy",
+    "pm2",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
